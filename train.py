@@ -145,7 +145,6 @@ def main(args, data_config, training_config):
         model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[args.gpu])
         model_without_ddp = model.module    
     
-    # optimizer = torch.optim.AdamW(params=model.parameters(), lr=training_config['init_lr'], weight_decay=training_config['weight_decay'])
     optimizer = AdamW_BF16(model.parameters(), lr_function=LR(lr=training_config['init_lr'], decay_power=training_config['power_decay']))
     scaler = torch.cuda.amp.GradScaler()
 
