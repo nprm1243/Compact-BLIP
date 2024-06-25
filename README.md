@@ -2,7 +2,7 @@
 
 ## Quick tutorial
 
-Train model from checkpoint:
+Train model from checkpoint (data will be downloaded automatically):
 ```
 python train.py
 ```
