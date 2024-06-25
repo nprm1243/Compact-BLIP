@@ -1,0 +1,5 @@
+# ignore ALL .pt files
+*.pth
+*.txt
+
+**/__pycache__

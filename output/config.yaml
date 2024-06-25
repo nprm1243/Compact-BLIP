@@ -1,0 +1,4 @@
+{batch_size_test: 16, batch_size_train: 16, checkpoint: F:/.python/NLP/Compact-BLIP/output/checkpoint_04.pth,
+image_size: 480, inference: rank, init_lr: 3e-05, k_test: 128, max_epoch: 10, min_lr: 0,
+power_decay: -0.05, pretrained: F:/.python/NLP/Compact-BLIP/output/215925062024.pth,
+vit: base, vit_ckpt_layer: 0, vit_grad_ckpt: false, weight_decay: 0.05}
