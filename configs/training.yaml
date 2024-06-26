@@ -1,7 +1,5 @@
-# pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_vqa_capfilt_large.pth'
-# pretrained: 'F:/.python/NLP/Compact-BLIP/models/pretrained/model_base_vqa_capfilt_large.pth'
-pretrained: 'F:/.python/NLP/Compact-BLIP/output/215925062024.pth'
-checkpoint: 'F:/.python/NLP/Compact-BLIP/output/checkpoint_04.pth'
+pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_vqa_capfilt_large.pth'
+checkpoint: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_vqa_capfilt_large.pth'
 
 # size of vit model; base or large
 vit: 'base'
